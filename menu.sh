@@ -9,10 +9,10 @@ source 5blankLinesCounter.sh
 PATH_ARCHIVO=texto.txt
 
 PS3='=> '
-echo "Elija una opcion"
-select opcion in "SALIR" "Estadisticas_de_palabras" "Estadisticas_de_uso_de_palabras" "Encontrar_nombres" "Estadisticas_de_oraciones" "Contador_de_lineas_en_blanco"
+echo "Elegì una opcion"
+select opcion in "SALIR" "Ealabras" "uso_de_palabras" "nombres" "oraciones" "lineas_en_blanco"
 do
-	[ -z $opcion ] && echo "Elija una opcion valida" && continue
+	[ -z $opcion ] && echo "Eleg una opcion valida" && continue
 	[ $REPLY == 1 ] && echo "Saliendo.." && break
 	echo "Opcion elegida: " $opcion
 
