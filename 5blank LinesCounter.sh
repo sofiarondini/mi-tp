@@ -1,6 +1,5 @@
 #!/bin/bash
 
-function 5blankLinesCounter {
   [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 
@@ -10,6 +9,5 @@ function 5blankLinesCounter {
    total_lineas_blanco=$((total_lineas-lineas_con_contenido))
 
    echo La cantidad de líneas en blanco es $total_lineas_blanco
-}
 
 #grep . matchea todas las líneas que contengan algún caracter
