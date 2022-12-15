@@ -5,7 +5,7 @@
 
 Para clonar el repositorio utilizar el siguiente comando:
 
-git clon
+git clon https://github.com/sofiarondini/mi-tp.git
 
 Para levantar el contenedor en otro equipo, lo ideal es crear una carpeta donde clonar el repsitorio git. Para esto hacemos:
 
