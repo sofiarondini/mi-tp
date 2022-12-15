@@ -1,6 +1,5 @@
 #!/bin/bash
 
-function 1statsWords {
 palabra_corta=189919 #esta es la cantidad de letras que contiene la palabra más larga del mundo
 palabra_larga=0
 suma_acumulada=0
@@ -25,7 +24,7 @@ done
 
 
 prom=$((suma_acumulada/cant_palabras))
-echo El promedio de la longitud de las palabras es $prom
-echo  La longitud de la palabra mas larga es $palabra_larga
-echo La longitud de la mas corta es $palabra_corta
-}
+echo "El promedio de la longitud de las palabras es $prom"
+echo "La longitud de la palabra mas larga es $palabra_larga"
+echo "La longitud de la mas corta es $palabra_corta"
+
