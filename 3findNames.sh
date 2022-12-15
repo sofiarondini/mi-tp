@@ -1,6 +1,5 @@
 #!/bin/bash
 
-function 3findNames {
 [ ! -f $1 ] && echo "No es un archivo regular" && exit 1
 
 
@@ -11,7 +10,6 @@ do
 	[[ $PalabraDespejada =~ ^[A-Z] ]] && echo $PalabraDespejada
 
 done
-}
 
 #Analiza si la primera letra es una mayúscula de la A a la Z,
 #Si es muestra la palabra
