@@ -14,7 +14,7 @@ do
 	  2) ./1statsWords.sh $PATH_ARCHIVO;;
 	  3) ./2statsUsageWords.sh $PATH_ARCHIVO;;
 	  4) ./3findNames.sh $PATH_ARCHIVO;;
-	  5) ./4statsSentences.sh $PATH_ARCHIVO;;
+	  5) ./4statsSentence.sh $PATH_ARCHIVO;;
 	  6) ./5blankLinesCounter.sh $PATH_ARCHIVO;;
 	esac
   
