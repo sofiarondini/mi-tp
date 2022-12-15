@@ -1,6 +1,5 @@
 #!/bin/bash
 
-function 2statsUsageWords {
 [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 #Si no es un archivo muestra el mensaje 
@@ -34,6 +33,3 @@ done
  sort -r ordenlisto.txt > ordenalreves.txt #sort -r ordena al revés
  head ordenalreves.txt #head muestra las primeras 10 líneas 
  rm temp.txt #eliminamos el temporal para que al volver a ejecutarlo este limpio
-
-
-}
