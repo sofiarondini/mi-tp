@@ -1,4 +1,4 @@
-ROM ubuntu:latest
+FROM ubuntu:latest
 MAINTAINER Rondini Sofia<sofiarondini002@gmail.com>
 
 ADD 1statsWords.sh .
