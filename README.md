@@ -7,18 +7,12 @@ Para clonar el repositorio utilizar el siguiente comando:
 
 git clon https://github.com/sofiarondini/mi-tp.git
 
-Para levantar el contenedor en otro equipo, lo ideal es crear una carpeta donde clonar el repsitorio git. Para esto hacemos:
-
-    mkdir carpeta_prueba
-
-    cd carpeta_prueba
-
 
 # Comandos Docker
 
 Estos comando se utilizan luego de clonar el repositorio
 
-    docker build 
+    docker build -t sofiarondini:1.0 .
     
 El comando build crea la imagen tp con el tag 1.0 . Luego ejecutar:
 
@@ -26,7 +20,7 @@ El comando build crea la imagen tp con el tag 1.0 . Luego ejecutar:
 
 Para ver que la imagen se creó correctamente. Para ejecutar el contenedor usar el comando run:
 
-    docker run 
+    docker run -it sofiarondini:1.0
 
 Si todo se realizó de forma correcta, tendría que ejecutarse el script menu.sh
 
